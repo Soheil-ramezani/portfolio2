@@ -1,3 +1,13 @@
+:root{
+    --primary-gray:#D7D7D7;
+    --primary-black:#000000;
+}
+.gray-bg{
+    background-color: var(--primary-gray)
+}
+.black-bg{
+    background-color: var(--primary-black)
+}
 // fonts
 @import './fonts';
 
