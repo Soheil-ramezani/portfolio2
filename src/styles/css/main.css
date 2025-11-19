@@ -1,7 +1,7 @@
 :root {
-  --primary-gray:#D7D7D7;
-  --primary-black:#000000;
-  --primary-white:#FFFFFF;
+  --primary-gray: #d7d7d7;
+  --primary-black: #000000;
+  --primary-white: #ffffff;
 }
 
 .gray-bg {
@@ -19,10 +19,26 @@
   font-style: normal;
 }
 
+.raleway-400 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.alegreya-sc-extrabold {
+  font-family: "Alegreya SC", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.nav {
+  z-index: 2;
+}
 .nav .nav__btn {
   color: var(--primary-gray);
   border-radius: 30px;
-  font-size: 13px;
+  font-size: 15px;
   transition: 1.5s;
 }
 .nav .nav__btn:hover {
@@ -30,6 +46,41 @@
   color: var(--primary-black);
 }
 .nav .selected {
+  background-color: var(--primary-white);
+  color: var(--primary-black);
+}
+
+.header {
+  background-color: #D7D7D7;
+  position: relative;
+  overflow: hidden;
+}
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 50%;
+  background-color: black;
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+  transform-origin: top left;
+  z-index: 1;
+}
+.header .leftSide .leftSide__h2 {
+  color: #909090;
+}
+.header .rightSide .rightSideBtns__btn {
+  color: var(--primary-gray);
+  border-radius: 30px;
+  font-size: 15px;
+  transition: 1.5s;
+}
+.header .rightSide .rightSideBtns__btn:hover {
+  background-color: var(--primary-white);
+  color: var(--primary-black);
+}
+.header .rightSide .selected {
   background-color: var(--primary-white);
   color: var(--primary-black);
 }

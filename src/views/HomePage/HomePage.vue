@@ -1,10 +1,10 @@
 <script setup>
 import NavBar from '@/components/navbar/navbar.vue'
-import HeaderView from '@/components/Header/HeaderView.vue';
+import HeaderView from '@/components/Header/HeaderView.vue'
 </script>
 <template>
   <NavBar />
-  <HeaderView/>
+  <HeaderView />
 </template>
 
 <script>

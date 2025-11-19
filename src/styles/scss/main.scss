@@ -1,14 +1,15 @@
-:root{
-    --primary-gray:#D7D7D7;
-    --primary-black:#000000;
-    --primary-white:#FFFFFF;
+:root {
+  --primary-gray: #d7d7d7;
+  --primary-black: #000000;
+  --primary-white: #ffffff;
 }
-.gray-bg{
-    background-color: var(--primary-gray)
+.gray-bg {
+  background-color: var(--primary-gray);
 }
-.black-bg{
-    background-color: var(--primary-black)
+.black-bg {
+  background-color: var(--primary-black);
 }
+
 // fonts
 @import './fonts';
 
