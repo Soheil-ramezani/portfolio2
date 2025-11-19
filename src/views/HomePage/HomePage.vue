@@ -1,9 +1,10 @@
 <script setup>
-import NavBar from '@/components/navbar/navbar.vue';
+import NavBar from '@/components/navbar/navbar.vue'
+import HeaderView from '@/components/Header/HeaderView.vue';
 </script>
 <template>
-  <NavBar/>
-  <h1>Hello world!</h1>
+  <NavBar />
+  <HeaderView/>
 </template>
 
 <script>
