@@ -1,6 +1,7 @@
 :root {
   --primary-gray:#D7D7D7;
   --primary-black:#000000;
+  --primary-white:#FFFFFF;
 }
 
 .gray-bg {
@@ -16,4 +17,19 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+.nav .nav__btn {
+  color: var(--primary-gray);
+  border-radius: 30px;
+  font-size: 13px;
+  transition: 1.5s;
+}
+.nav .nav__btn:hover {
+  background-color: var(--primary-white);
+  color: var(--primary-black);
+}
+.nav .selected {
+  background-color: var(--primary-white);
+  color: var(--primary-black);
 }
