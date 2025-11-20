@@ -2,7 +2,7 @@
   <section class="header py-10 flex flex-row justify-around">
     <!-- Left side -->
     <div class="leftSide w-2/5">
-      <h3 class="leftSide__h3 text-[40px] raleway-400 ">Hi, I'm</h3>
+      <h3 class="leftSide__h3 text-[40px] raleway-400">Hi, I'm</h3>
       <h1 class="leftSide__h1 text-[80px] alegreya-sc-extrabold">Soheil Ramezani</h1>
       <h2 class="leftSide__h2">Front-end Developer</h2>
     </div>
