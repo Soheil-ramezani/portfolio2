@@ -106,3 +106,14 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.AboutMe {
+  background-color: var(--primary-white);
+}
+.AboutMe .AboutMe__h1 {
+  border: 8px solid black;
+}
+.AboutMe .AboutMe__btn {
+  border-width: 0 3px 0 3px;
+  border-color: black;
+}
