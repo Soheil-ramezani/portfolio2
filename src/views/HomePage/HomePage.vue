@@ -1,8 +1,8 @@
 <script setup>
 import NavBar from '@/components/navbar/navbar.vue'
 import HeaderView from '@/components/Header/HeaderView.vue'
-import JobExplanation from '@/components/mainParts/jobExplanation/jobExplanation.vue';
-
+import JobExplanation from '@/components/mainParts/jobExplanation/jobExplanation.vue'
+import AboutMe from '@/components/mainParts/AboutMe/AboutMe.vue'
 </script>
 <template>
   <header>
@@ -10,7 +10,8 @@ import JobExplanation from '@/components/mainParts/jobExplanation/jobExplanation
     <HeaderView />
   </header>
   <main>
-  <JobExplanation/>
+    <JobExplanation />
+    <AboutMe/>
   </main>
 </template>
 

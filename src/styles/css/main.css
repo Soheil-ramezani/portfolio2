@@ -86,7 +86,7 @@
 }
 
 .Explanation {
-  background-image: linear-gradient(#1D1D1D);
+  background-image: linear-gradient(#1d1d1d);
   color: var(--primary-white);
   position: relative;
   overflow: hidden;

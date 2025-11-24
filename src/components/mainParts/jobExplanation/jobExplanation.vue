@@ -10,7 +10,12 @@
       Anytime you enjoy the look and feel of a digital product, website, or application, you have a
       front-end developer to thank.
     </p>
-    <a href="https://www.coursera.org/articles/front-end-developer" target="_blank"  class="Explanation__a  px-5 text-[15px]">Read More</a>
+    <a
+      href="https://www.coursera.org/articles/front-end-developer"
+      target="_blank"
+      class="Explanation__a px-5 text-[15px]"
+      >Read More</a
+    >
   </section>
 </template>
 
@@ -20,5 +25,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>
