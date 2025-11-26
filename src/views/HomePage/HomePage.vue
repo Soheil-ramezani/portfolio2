@@ -11,7 +11,7 @@ import AboutMe from '@/components/mainParts/AboutMe/AboutMe.vue'
   </header>
   <main>
     <JobExplanation />
-    <AboutMe/>
+    <AboutMe />
   </main>
 </template>
 

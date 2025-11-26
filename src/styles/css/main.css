@@ -19,6 +19,13 @@
   font-style: normal;
 }
 
+.montserrat-500 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 .raleway-400 {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -111,7 +118,7 @@
   background-color: var(--primary-white);
 }
 .AboutMe .AboutMe__h1 {
-  border: 8px solid black;
+  border: 5px solid black;
 }
 .AboutMe .AboutMe__btn {
   border-width: 0 3px 0 3px;
