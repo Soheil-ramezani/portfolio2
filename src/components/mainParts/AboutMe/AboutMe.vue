@@ -29,7 +29,7 @@
     <button v-show="!this.showLongText" @click="changeText()" class="AboutMe__btn px-10 mt-20">
       more explanation
     </button>
-     <!--Long text btn  -->
+    <!--Long text btn  -->
     <button v-show="this.showLongText" @click="changeText()" class="AboutMe__btn px-10 mt-20">
       less explanation
     </button>
@@ -42,17 +42,38 @@
       <line x1="110" y1="30" x2="120" y2="20" stroke="black" stroke-width="2.5" />
       <line x1="120" y1="30" x2="130" y2="20" stroke="black" stroke-width="2.5" />
       <!-- v lines -->
-      <polyline
-        points="  90,20 100,30 110,20 "
-        stroke="black"
-        stroke-width="2.5"
-        fill="none"
-      />
+      <polyline points="  90,20 100,30 110,20 " stroke="black" stroke-width="2.5" fill="none" />
       <!-- left lines -->
-       <line x1="80" y1="20" x2="90" y2="30" stroke="black" stroke-width="2.5" />
-       <line x1="70" y1="20" x2="80" y2="30" stroke="black" stroke-width="2.5" />
+      <line x1="80" y1="20" x2="90" y2="30" stroke="black" stroke-width="2.5" />
+      <line x1="70" y1="20" x2="80" y2="30" stroke="black" stroke-width="2.5" />
     </svg>
-    div.
+    <!-- jobAbility -->
+    <div class="jobAbility w-full my-[5%] mx-[15%] pl-[15%] flex flex-row  justify-center items-center flex-wrap gap-y-11">
+      <!-- ability 1 -->
+      <div class="ability w-1/2 ">
+        <h2 class="ability__h2 montserrat-500 text-[22px]">Development</h2>
+        <p class="ability__p text-[14px] font-sans max-w-[70%]">
+          I build websites incorporating effective Design Systems and adhering to Clean Code
+          principles.
+        </p>
+      </div>
+      <!-- ability 1 -->
+      <div class="ability w-1/2 ">
+        <h2 class="ability__h2 montserrat-500 text-[22px]">Development</h2>
+        <p class="ability__p text-[14px] font-sans max-w-[70%]">
+          I build websites incorporating effective Design Systems and adhering to Clean Code
+          principles.
+        </p>
+      </div>
+      <!-- ability 1 -->
+      <div class="ability w-1/2 ">
+        <h2 class="ability__h2 montserrat-500 text-[22px]">Development</h2>
+        <p class="ability__p text-[14px] font-sans max-w-[70%]">
+          I build websites incorporating effective Design Systems and adhering to Clean Code
+          principles.
+        </p>
+      </div>
+    </div>
     <!-- separate part svg -->
     <svg class="AboutMe__svg mt-[5%]" width="200" height="50">
       <!-- straight lines -->
@@ -62,17 +83,11 @@
       <line x1="110" y1="30" x2="120" y2="20" stroke="black" stroke-width="2.5" />
       <line x1="120" y1="30" x2="130" y2="20" stroke="black" stroke-width="2.5" />
       <!-- v lines -->
-      <polyline
-        points="  90,20 100,30 110,20 "
-        stroke="black"
-        stroke-width="2.5"
-        fill="none"
-      />
+      <polyline points="  90,20 100,30 110,20 " stroke="black" stroke-width="2.5" fill="none" />
       <!-- left lines -->
-       <line x1="80" y1="20" x2="90" y2="30" stroke="black" stroke-width="2.5" />
-       <line x1="70" y1="20" x2="80" y2="30" stroke="black" stroke-width="2.5" />
+      <line x1="80" y1="20" x2="90" y2="30" stroke="black" stroke-width="2.5" />
+      <line x1="70" y1="20" x2="80" y2="30" stroke="black" stroke-width="2.5" />
     </svg>
-
   </section>
 </template>
 
