@@ -48,9 +48,11 @@
       <line x1="70" y1="20" x2="80" y2="30" stroke="black" stroke-width="2.5" />
     </svg>
     <!-- jobAbility -->
-    <div class="jobAbility w-full my-[5%] mx-[15%] pl-[15%] flex flex-row  justify-center items-center flex-wrap gap-y-11">
+    <div
+      class="jobAbility w-full my-[5%] mx-[15%] pl-[15%] flex flex-row justify-center items-center flex-wrap gap-y-11"
+    >
       <!-- ability 1 -->
-      <div class="ability w-1/2 ">
+      <div class="ability w-1/2">
         <h2 class="ability__h2 montserrat-500 text-[22px]">Development</h2>
         <p class="ability__p text-[14px] font-sans max-w-[70%]">
           I build websites incorporating effective Design Systems and adhering to Clean Code
@@ -58,19 +60,17 @@
         </p>
       </div>
       <!-- ability 1 -->
-      <div class="ability w-1/2 ">
-        <h2 class="ability__h2 montserrat-500 text-[22px]">Development</h2>
+      <div class="ability w-1/2">
+        <h2 class="ability__h2 montserrat-500 text-[22px]">Design </h2>
         <p class="ability__p text-[14px] font-sans max-w-[70%]">
-          I build websites incorporating effective Design Systems and adhering to Clean Code
-          principles.
+          I help establish stability and efficiency on your website through design based on UI/UX development standards.
         </p>
       </div>
       <!-- ability 1 -->
-      <div class="ability w-1/2 ">
-        <h2 class="ability__h2 montserrat-500 text-[22px]">Development</h2>
+      <div class="ability w-1/2">
+        <h2 class="ability__h2 montserrat-500 text-[22px]">Maintenance </h2>
         <p class="ability__p text-[14px] font-sans max-w-[70%]">
-          I build websites incorporating effective Design Systems and adhering to Clean Code
-          principles.
+          Standardized coding and Clean Code lower your website's maintenance and development costs.
         </p>
       </div>
     </div>

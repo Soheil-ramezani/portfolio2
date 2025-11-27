@@ -13,28 +13,28 @@
 }
 
 .montserrat {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
 .montserrat-500 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
 }
 
 .raleway-400 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
 .alegreya-sc-extrabold {
-  font-family: "Alegreya SC", serif;
+  font-family: 'Alegreya SC', serif;
   font-weight: 800;
   font-style: normal;
 }
@@ -63,7 +63,7 @@
   overflow: hidden;
 }
 .header::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 0;
@@ -103,7 +103,7 @@
   border-color: white;
 }
 .Explanation::after {
-  content: url("../../assets/photos/svg/html5-line.svg");
+  content: url('../../assets/photos/svg/html5-line.svg');
   position: absolute;
   top: 50;
   right: 0;
