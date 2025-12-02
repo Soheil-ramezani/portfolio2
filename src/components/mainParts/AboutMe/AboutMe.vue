@@ -61,14 +61,15 @@
       </div>
       <!-- ability 1 -->
       <div class="ability w-1/2">
-        <h2 class="ability__h2 montserrat-500 text-[22px]">Design </h2>
+        <h2 class="ability__h2 montserrat-500 text-[22px]">Design</h2>
         <p class="ability__p text-[14px] font-sans max-w-[70%]">
-          I help establish stability and efficiency on your website through design based on UI/UX development standards.
+          I help establish stability and efficiency on your website through design based on UI/UX
+          development standards.
         </p>
       </div>
       <!-- ability 1 -->
       <div class="ability w-1/2">
-        <h2 class="ability__h2 montserrat-500 text-[22px]">Maintenance </h2>
+        <h2 class="ability__h2 montserrat-500 text-[22px]">Maintenance</h2>
         <p class="ability__p text-[14px] font-sans max-w-[70%]">
           Standardized coding and Clean Code lower your website's maintenance and development costs.
         </p>

@@ -13,7 +13,7 @@ import SkillsPart from '@/components/mainParts/SkillsPart/SkillsPart.vue'
   <main>
     <JobExplanation />
     <AboutMe />
-    <SkillsPart/>
+    <SkillsPart />
   </main>
 </template>
 

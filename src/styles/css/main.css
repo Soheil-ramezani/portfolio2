@@ -124,3 +124,13 @@
   border-width: 0 3px 0 3px;
   border-color: black;
 }
+
+.Skills .Skills__h1-title {
+  width: 404px;
+  height: 74px;
+  border: 5px solid black;
+}
+.Skills .Skills-list .Skills-icons .skill .skill__img {
+  width: 100px;
+  height: 120px;
+}
